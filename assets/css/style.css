@@ -1,0 +1,65 @@
+:root{
+--marron:#f3a84d;
+--cinza:#464646;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    background-color: black !important;
+}
+
+
+body{
+
+    background-color: #000 !important;
+}
+header{
+
+background: url('../img/banner.jpg');
+background-position: center right; 
+background-size: conver;
+min-height: 600px;
+height: 100vh;
+
+}
+
+.text-marrom{
+    color: var(--marron);
+}
+
+.bg-marrom{
+
+    background-color: #f3a84d;
+}
+
+.produto{
+
+
+background-position: center;
+background-size: cover;
+
+}
+
+.produto {
+   
+}
+
+/* =================================== */
+
+/* paginas */
+
+.header-paginas{
+
+background: linear-gradient(rgba(0, 0, 0, 0.342), rgba(0, 0, 0, 0.342)), url(../img/bg-produto.jpg);
+background-size: cover;
+background-position: center;
+}
+
+
+.produtosn{
+
+    background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
